@@ -1,13 +1,13 @@
 package cartes;
 
-public class Attaque extends Bataille {
+public class Parade extends Bataille {
 
-	public Attaque(Type type) {
+	public Parade(Type type) {
 		super(type);
 		// TODO Auto-generated constructor stub
 	}
-	
+
 	public String toString() {
-		return this.getType().getAttaque();
+		return this.getType().getParade();
 	}
 }
