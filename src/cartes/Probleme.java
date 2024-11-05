@@ -23,6 +23,10 @@ public abstract class Probleme extends Carte {
 		return false;
 	}
 	
+	public int compareTo(Probleme other) {
+        return this.getType().compareTo(other.getType());
+    }
+	
 	
 	
 	
